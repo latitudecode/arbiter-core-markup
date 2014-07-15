@@ -21,7 +21,7 @@ h2, h3, p {
 	background-color: #FFFFFF;
 	width: 100%;
 	z-index: 10;
-	margin-top: 380px;
+	margin-top: 700px;
 	box-shadow: 7px 0px 20px -15px;
 	padding-top: 5%;
 	border-top: 5px solid #fff;
@@ -29,8 +29,8 @@ h2, h3, p {
 
 nav {
 	width: 100%;
-	background-color: rgba(250, 173, 129, .99);
-	height: 85px;
+	background-color: rgba(2, 2, 2, 0.25);
+	height: 170px;
 	position: fixed;
 	z-index: 200;
 	top: 0px;
@@ -136,6 +136,8 @@ footer {
 .my-nav {
 	margin: 0 auto;
 	width: 100%;
+	top: 38px;
+	position: relative;
 }
 
 .my-nav li {

@@ -23,8 +23,6 @@ h2, h3, p {
 	z-index: 10;
 	margin-top: 700px;
 	box-shadow: 7px 0px 20px -15px;
-	padding-top: 5%;
-	border-top: 5px solid #fff;
 }
 
 nav {
@@ -36,14 +34,15 @@ nav {
 	top: 0px;
 	box-shadow: 12px 1px 23px -14px;
 	text-align: center;
-	font-family: 'Roboto Slab',serif !important;
+	font-family: 'Arial',serif !important;
 	padding-top: 25px;
+	text-transform: uppercase;
 }
 
 a {
 	font-size: 14px;
 	color: #fff;
-	font-family: 'Roboto Slab',serif !important;
+	font-family: 'Arial' !important;
 }
 
 a:link {
@@ -152,6 +151,28 @@ ul {
 
 #shadowbox {
 	top: 0px !important;
+}
+
+
+/* filter nav */
+
+.filter {
+	width: 100%;
+	height: 90px;
+	background-color: #2b2b2b;
+}
+
+.filter ul li {
+
+}
+
+.filter-nav .button {
+    padding: 45px 95px;
+}
+
+
+.stage .wrap {
+    margin-top: 3%;
 }
 
 
@@ -383,16 +404,6 @@ img .medium-5 {
 	-moz-transform: rotate(315deg); /* Firefox */
 	-ms-transform: rotate(315deg); /* Internet Explorer */
 	-o-transform: rotate(315deg); /* Opera */
-}
-
-/* sketchbook */
-
-.sketchbook .info {
-	margin-top: 25%;
-}
-
-a:hover, a:focus {
-	color: #0088BA !important;
 }
 
 

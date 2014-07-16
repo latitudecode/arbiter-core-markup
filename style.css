@@ -81,6 +81,10 @@ footer h4 a {
 	color: #2b2b2b;
 }
 
+footer .row {
+	margin-top: 2%;
+}
+
 .hover-effect {
     background-color: black;
     display: none;

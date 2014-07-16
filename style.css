@@ -88,7 +88,7 @@ footer {
 }
 
 .stay-put {
-	top: 32%;
+	top: 0px;
 	width: 100%;
 	position: fixed;
 	z-index: -1;
@@ -127,6 +127,13 @@ footer {
 	width: 575px;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 20%;
+}
+
+.stay-put video {
+	position: absolute;
+	width: 100%;
+	height: auto;
 }
 
 .call-two-action ul {

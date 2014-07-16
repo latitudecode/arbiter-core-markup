@@ -283,8 +283,8 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .float:hover, .float:focus, .float:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 /* Sink */

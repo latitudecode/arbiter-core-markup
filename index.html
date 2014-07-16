@@ -45,6 +45,12 @@
 
 <script type="text/javascript" src="/js/foundation/foundation.js/index.html"></script>
 
+<script type="text/javascript" src="js/jquery.videoBG.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.5.1.js"></script>
+    
+<script type="text/javascript" src="js/script.js"></script>
+
 <meta name="generator" content="WordPress 3.8.3" />
 
 
@@ -101,6 +107,21 @@ return false;" name="menu2">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Projects</a></li>
             </ul>
+                            <div class="demo">
+                    <h2>Fixed body background</h2>
+                    <p>As seen on this page</p>
+<pre><code>
+$('body').videoBG({
+        position:"fixed",
+        zIndex:-1,
+        mp4:'christmas_snow.mp4',
+        ogv:'christmas_snow.ogv',
+        webm:'christmas_snow.webm',
+        poster:'christmas_snow.jpg',
+        opacity:0.5
+    });
+</code></pre>
+                </div>
   		</div>
 	</div>
 </div>

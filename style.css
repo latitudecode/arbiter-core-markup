@@ -1,5 +1,5 @@
 body {
-	background-color: #79788a !important;
+	background-color: #2b2b2b !important;
 	font-family: 'Baskerville',serif !important;
 }
 
@@ -188,6 +188,10 @@ font-size: 24px;
 	padding: 15px 40px;
 }
 
+.theater .row {
+	position: relative;
+	top: 100px;
+}
 
 
 /* navigation */
@@ -340,10 +344,8 @@ img .medium-5 {
 	background-color: #fff;
 	width: 100%;
 	z-index: 10;
-	margin-top: 265px;
+	margin-top: 150px;
 	box-shadow: 7px 0px 20px -15px;
-	padding-top: 5%;
-	border-top: 5px solid #fff;
 }
 
 .stage-single .wrap {
@@ -501,7 +503,7 @@ iframe {
 	width: 100%;
 	background: none repeat scroll 0 0 rgba(2, 2, 2, 0.491);
 	z-index: 10000;
-	height: 170px;
+	height: 125px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -524,7 +526,7 @@ iframe {
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header h1,
 .cbp-af-header nav a {
-	line-height: 165px;
+	line-height: 125px;
 }
 
 .cbp-af-header h1 {

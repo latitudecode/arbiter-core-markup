@@ -190,7 +190,17 @@ font-size: 24px;
 
 .theater .row {
 	position: relative;
-	top: 100px;
+	top: 30px;
+}
+
+.theater .row p, .theater .row h2, .theater .row h4, .theater .row li {
+	color: #afafaf;
+}
+
+
+
+.full {
+	width: 100% !important;
 }
 
 
@@ -344,8 +354,9 @@ img .medium-5 {
 	background-color: #fff;
 	width: 100%;
 	z-index: 10;
-	margin-top: 150px;
+	margin-top: 5%;
 	box-shadow: 7px 0px 20px -15px;
+	padding-top: 3%;
 }
 
 .stage-single .wrap {
@@ -497,13 +508,12 @@ iframe {
 /* animated header */
 
 .cbp-af-header {
-	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: none repeat scroll 0 0 rgba(2, 2, 2, 0.491);
+	background: none repeat scroll 0 0 rgba(2, 2, 2, 0.11);
 	z-index: 10000;
-	height: 125px;
+	height: 85px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -526,7 +536,7 @@ iframe {
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header h1,
 .cbp-af-header nav a {
-	line-height: 125px;
+	line-height: 85px;
 }
 
 .cbp-af-header h1 {
